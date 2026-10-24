@@ -30,7 +30,7 @@ Welcome to Auto-Deep-Research! Auto-Deep-Research is a open-source and cost-effi
 - 🌐 **Universal LLM Support**: Seamlessly integrates with **A Wide Range** of LLMs (e.g., OpenAI, Anthropic, Deepseek, vLLM, Grok, Huggingface ...)
 - 🔀 **Flexible Interaction**: Supports both **function-calling** and **non-function-calling** interaction LLMs.
 - 💰 **Cost-Efficient**: Open-source alternative to Deep Research's $200/month subscription with your own pay-as-you-go LLM API keys.
-- 📁 **File Support**: Handles file uploads for enhanced data interaction
+- 📁 **File Support**: Type `@Upload_files` in the interactive CLI to copy files into the workspace before asking the research agent about them.
 - 🚀 **One-Click Launch**:  Get started instantly with a simple `auto deep-research` command - **Zero Configuration** needed, truly out-of-the-box experience.
 
 

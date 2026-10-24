@@ -210,6 +210,8 @@ def deep_research(container_name: str, port: int):
             files_dir = os.path.join(local_workplace, "files")
             os.makedirs(files_dir, exist_ok=True)
             select_and_copy_files(files_dir, console)
+            # File selection is a one-shot action; return to the main research agent.
+            agent = system_triage_agent
         else: 
             console.print(f"[bold red]Unknown agent: {agent}[/bold red]")
     
