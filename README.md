@@ -116,7 +116,7 @@ You can run `auto deep-research` to start Auto-Deep-Research. Some configuration
 
 - `--container_name`: Name of the Docker container (default: 'deepresearch')
 - `--port`: Port for the container (default: 12346)
-- `COMPLETION_MODEL`: Specify the LLM model to use, you should follow the name of [Litellm](https://github.com/BerriAI/litellm) to set the model name. (Default: `claude-3-5-sonnet-20241022`)
+- `COMPLETION_MODEL`: Specify the LLM model to use, you should follow the name of [Litellm](https://github.com/BerriAI/litellm) to set the model name. (Default: `claude-3-5-haiku-20241022`)
 - `DEBUG`: Enable debug mode for detailed logs (default: False)
 - `API_BASE_URL`: The base URL for the LLM provider (default: None)
 - `FN_CALL`: Enable function calling (default: None). Most of time, you could ignore this option because we have already set the default value based on the model name.
@@ -136,7 +136,7 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
 * run the following command to start Auto-Deep-Research.
 
 ```bash
-auto deep-research # default model is claude-3-5-sonnet-20241022
+auto deep-research # default model is claude-3-5-haiku-20241022
 ```
 
 ##### OpenAI
